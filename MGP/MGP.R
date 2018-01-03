@@ -4,7 +4,7 @@ library(reshape2)
 library(ggplot2)
 library(lubridate)
 
-path <- "/Users/federico/Projects/MGP/XML/"
+path <- "./XML/"
 xPath <- "//Prezzi"
 toNumWithComma <- function(x){ y <- as.numeric(gsub(",", ".", gsub("\\.", "", x))); return(y)}
 getOra <- function(x){y<-formatC(x-1, width = 2, format = "d", flag = "0");return(y)}
