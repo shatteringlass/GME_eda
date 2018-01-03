@@ -1,6 +1,7 @@
 # My ignores
 *.xml
 cookie.txt
+*DS_Store*
 
 # History files
 .Rhistory
