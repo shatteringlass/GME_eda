@@ -31,8 +31,8 @@ finalTable$value <- sapply(finalTable$value, toNumWithComma)
 names(finalTable)[names(finalTable) == "variable"] <- "Indice"
 names(finalTable)[names(finalTable) == "value"] <- "Prezzo"
 
-# Create YYYYMMDDHHMMSS column
-finalTable$Data <- ymd_hms(paste(finalTable$Data,getOra(finalTable$Ora),"0000",sep=""),tz="CET")
+# Create timestamp column
+finalTable$Data <- ymd_hms(paste(finalTable$Data,getOra(finalTable$Ora),"3000",sep=""),tz="CET")
 
 # Drop useless columns
 drops <- c("Mercato", "Ora")

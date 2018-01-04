@@ -1,7 +1,7 @@
 # My ignores
 *.xml
 cookie.txt
-*DS_Store*
+.DS_Store
 
 # History files
 .Rhistory
@@ -36,3 +36,4 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+.Rproj.user
