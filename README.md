@@ -8,6 +8,9 @@ Consegna derivati energia
 Mercato bilanciamento (6 sessioni)
 ### MGP
 Mercato giorno prima (day-ahead)
+Lo scraping degli esiti di mercato è stato utilizzato per visualizzare l'andamento del PUN day-ahead, anche attraverso una regressione polinomiale (n=3)
+![MGP ultimi 365 giorni](./POWER/MGP/PUN.png "PUN")
+
 ### MI
 Mercato infragiornaliero (7 sessioni)
 ### MPEG
